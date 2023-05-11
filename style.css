@@ -1,0 +1,107 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h2, h4, p {
+    margin: 0;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+body{
+    padding: 20px;
+}
+#card{
+    width: 800px;
+    height:400px;
+    border-radius: 5px;
+    box-shadow: 3px 1px 10px -1px rgba(0,0,0,0.29);
+    overflow: hidden;
+}
+#top-section {
+    width:100%;
+    height:40%;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+#top-section h2 {
+    padding: 5px;
+    padding-bottom: 20px;
+    color: #10c7c0;
+}
+#top-section h4 {
+    padding: 5px;
+    padding-bottom: 15px;
+    color: #c0df34;
+    font-weight: 100;
+}
+#top-section p {
+    padding-left: 5px;
+    color: gray;
+    opacity: 0.5;
+}
+#bottom-section {
+    width:100%;
+    height:60%;
+    
+}
+
+#bottom-left-section {
+    display: inline-block;
+    vertical-align: top;
+    width:50%;
+    height:100%;
+    background-color:  #2ab2af;
+}
+#bottom-left-section h2{
+    margin-left: 25px;
+    margin-top: 15px;
+}
+#bottom-left-section #monthly-financials {
+    margin-left: 25px;
+    margin-top: 15px;
+    display: -moz-inline-box;
+}
+#bottom-left-section p,button{
+    margin-left: 25px;
+    margin-top: 15px;
+}
+#bottom-left-section button {
+    width:50%;
+    height: 30px;
+    background-color: #c0df34;
+    border:none; 
+    border-radius: 5px;
+}
+#bottom-left-section button:hover{
+    cursor: pointer;
+}
+#bottom-right-section {
+    display: inline-block;
+    vertical-align: top;
+    width:50%;
+    height:100%;
+    background-color:#10c7c0
+}
+#bottom-right-section h2{
+    margin-left: 25px;
+    margin-top: 15px;
+}
+#bottom-right-section #why-list li{
+    list-style: none;
+}
+#rate{
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+#rate, #per-month{
+    display: inline-block;
+}
+#per-month{
+    position: relative;
+    top: -3px;
+}
